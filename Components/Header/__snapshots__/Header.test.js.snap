@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header />  snapshot test 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#4154AF",
+      "flexDirection": "row",
+      "height": 100,
+      "justifyContent": "space-around",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 20,
+      }
+    }
+  >
+    Awesome Forms
+  </Text>
+</View>
+`;

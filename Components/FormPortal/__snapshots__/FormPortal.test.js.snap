@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header />  snapshot test 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "backgroundColor": "white",
+      "height": 130,
+      "marginTop": 25,
+      "padding": 10,
+      "paddingTop": 25,
+      "width": 270,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "height": 70,
+      }
+    }
+  >
+    Personal Details
+  </Text>
+  <View
+    style={
+      Object {
+        "borderColor": "black",
+        "borderWidth": 1,
+        "width": 250,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-end",
+      }
+    }
+  >
+    Created On: 
+    2019/02/27
+  </Text>
+</View>
+`;

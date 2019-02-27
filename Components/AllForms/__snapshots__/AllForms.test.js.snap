@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AllForms />  snapshot test 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "stretch",
+      "backgroundColor": "#DAE5F0",
+      "flex": 1,
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#4154AF",
+        "flexDirection": "row",
+        "height": 100,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 20,
+        }
+      }
+    >
+      Awesome Forms
+    </Text>
+  </View>
+  <RCTScrollView
+    style={Object {}}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "space-around",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-end",
+        "backgroundColor": "#4154AF",
+        "borderRadius": 60,
+        "height": 50,
+        "justifyContent": "center",
+        "marginRight": 30,
+        "width": 50,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "white",
+            "fontSize": 30,
+            "fontWeight": "normal",
+          },
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
