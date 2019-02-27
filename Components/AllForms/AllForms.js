@@ -28,8 +28,13 @@ export default class App extends Component {
     FormDetails: [],
   }
 
+  getFormData = async (url) => {
+    await axios.get(url).then((data) => { this.setState({ FormDetails: data.data }); });
+  }
+
   async componentDidMount() {
     if (Platform.OS === 'android') {
+      console.log('android');
       await this.getFormData('http://10.0.2.2:3005/displayforms');
     } else {
       await this.getFormData('http://localhost:3005/displayforms');
@@ -38,9 +43,9 @@ export default class App extends Component {
     console.log(FormDetails, 'hi');
   }
 
-  getFormData = async (url) => {
-    await axios.get(url).then((data) => { this.setState({ FormDetails: data.data }); });
-  }
+  // getFormData = async (url) => {
+  //   await axios.get(url).then((data) => { this.setState({ FormDetails: data.data }); });
+  // }
 
   render() {
     const Forms = [];
